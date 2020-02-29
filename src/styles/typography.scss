@@ -1,0 +1,70 @@
+/*
+===================================
+Typography
+===================================
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Heebo', sans-serif;
+  margin: 8px 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #585d70;
+  font-size: 16px;
+}
+
+body,
+.main,
+.app {
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 28px;
+  color: #222d39;
+}
+
+.subtitle {
+  color: #222d39;
+  font-size: 18px;
+}
+
+.text {
+  color: #222d39;
+
+  &--blue {
+    color: #34b3ff;
+  }
+  &--light {
+    font-weight: 100;
+    color: rgb(102, 112, 128);
+  }
+  &--center {
+    text-align: center;
+  }
+  &--error {
+    color: #dc3545;
+    font-size: 12.5px;
+    font-weight: bolder;
+    min-height: 13px;
+  }
+}
+
+.textAlign {
+  &--center {
+    text-align: center;
+  }
+  &--left {
+    text-align: left;
+  }
+  &--right {
+    text-align: right;
+  }
+}
